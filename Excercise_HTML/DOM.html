@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<style>
+    div.imagenes{
+    background-color: #9782cf;
+    color: #e619c7;
+    }
+    #tatu{
+    padding: 4px;
+    border: black 4px solid;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    }
+    body{
+    background-color: #60518a;
+    color:#f7f7f5;
+    }
+    a:hover {
+
+    color: red; /*color de letra*/
+    background-color: white; /*color de fondo*/
+    text-decoration: none;
+    }
+    img {
+    width: 40%;
+    height: 40%;
+    }
+    table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    }
+    /*#texto{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+    }*/
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+</style>
+<script>
+    document.getElementById('hor2').innerHTML = new Date();
+    console.log(new Date());
+
+    function myFunction() {
+    document.getElementById("demo").style.fontSize = "25px";
+    document.getElementById("demo").style.color = "red";
+    document.getElementById("demo").style.backgroundColor = "yellow";
+    console.log("Hola mundo");
+    }
+
+    function formu() {
+    var nombre =  document.getElementById("nom").value;
+    console.log("Mi nombre es: " +nombre);
+    alert("Mi nombre es: " +nombre);
+    }
+
+
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muestra</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mine web</h1>
+    </header>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">And about my cat</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div style="background-color: #04000f ">
+        <h1>Hola mundo!!!</h1>
+        <h2>Hola mundo!!!</h2>
+        <h3>Hola mundo!!!</h3>
+        <h4>Hola mundo!!!</h4>
+        <h5>Hola mundo!!!</h5>
+        <h6>Hola mundo!!!</h6>
+        <!–Comentarios {}–>
+    </div>
+    <hr>
+    <div class="imagenes" id="tatu">
+        <a target="_blank" href="https://www.w3schools.com" style="flex: 100%">This is a link </a> <!–links–>
+        <img src="Public_Files/tatuaje.jpg" alt="Tatuaje gato" width="204" height="204" style="flex:50%">
+        <p style="color: #000000; font-size: 20px; flex: 50%" class="textos" id="texto"><em>Lorem</em> ipsum dolor sit amet, consectetur adipisicing elit. <br> Amet autem deserunt dolorem doloribus fuga id neque odit qui quisquam reprehenderit temporibus ut, velit voluptatem? Accusamus alias iusto natus ratione sapiente.
+        </p>
+    </div>
+
+    <div><br>
+        <h3>Tabla</h3>
+        <table>
+            <tr><!–declaracion de una fila–>
+                <td align="center" rowspan="2"> <!–rowspan une dos filas–>
+                    <!–Posicion 0,0–>
+                    <img src="Public_Files/tatuaje.jpg" alt="Tatuaje gato" width="204" height="204">
+                </td>
+                <td><!–declaracion de una columna–>
+                    <!–Posicion 0,1–>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt inventore.
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                 <td>
+                    <!–Posicion 1,1–>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt inventore.
+                    </p>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="2"> <!–colspan une dos columnas–>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt inventore.
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td >
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt inventore.
+                    </p>
+                </td>
+                <td>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, incidunt inventore.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h3>Lista de bebidas</h3>
+        <ul><!–declaracion de una lista –>
+            <li>cafe</li>
+            <li>regresco</li>
+            <li>te</li>
+            <li>jugo</li>
+        </ul>
+
+        <h3>Lista de bebidas 2</h3>
+        <ol><!–declaracion de una lista ordenada–>
+            <li>cafes</li>
+            <li>regrescos</li>
+            <li>tes</li>
+            <li>jugos</li>
+        </ol>
+    </div>
+
+    <div>
+        <span style="color: blue">Este es un parrafo en azul</span><!–etiqueta para texto–>
+    </div>
+
+    <div id="javascript">
+        <h1>Mi primer Javascript</h1>
+        <button class="botones" id="b1" onclick="document.getElementById('fecha').innerHTML = Date()">Dale click...please</button>
+        <div id="fecha"></div>
+        <button class="botones" id="b2" onclick="document.getElementById('javascript').style.backgroundColor=  'red' " >No click me</button>
+        <p id="demo"> Te quiero <3 </p>
+        <button type="button" onclick="myFunction()">Click Me!</button>
+    </div>
+
+    <footer>
+        <p>Referencias/Contacto</p>
+    </footer>
+
+    <div>
+        <h4>Formulariio</h4>
+        <form action="javascript:formu()">
+            <fieldset>
+                <label for="nom">Nombre</label>
+                <input type="text" id="nom" name="nom">
+
+                <h3> Genero </h3>
+                <input type="radio" name="genero" id="nom1">
+                <label for="nom1"> Femenino </label>
+                <input type="radio" name="genero" id="nom3">
+                <label for="nom3"> Masculino </label>
+                <input type="radio" name="genero" id="nom4">
+                <label for="nom4"> Indefinido </label><br><br>
+
+                <h3>Generos de peliculas</h3>
+
+                <input type="checkbox" name="nom2"><label>Accion</label><br>
+                <input type="checkbox" name="nom2"><label>Suspenso</label><br>
+                <input type="checkbox" name="nom2"><label>Comedia</label><br>
+                <input type="checkbox" name="nom2"><label>Animadas</label><br>
+                <input type="checkbox" name="nom2"><label>Terror</label><br><br>
+
+                <h4>Seleccione un platillo</h4>
+
+                <label for="nom5">Seleccione</label>
+                <select id="nom5">
+                    <option value="---">---</option>
+                    <option value="chilaquiles">Chilaquiles</option>
+                    <option value="Mole con pollo">Mole con pollo</option>
+                    <option value="Quesadillas">Quesadillas</option>
+                    <option value="Pambazos">Pambazos</option>
+                </select>
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="birthday">Birthday</label>
+                <input type="date" name="birthday" id="birthday"><br>
+                <input type="text" name="oculto" id="oculto" value="oculto" hidden><br>
+                <input type="text" name="oculto1" id="oculto1" value="Holii!!" readonly>
+
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+        <p>te quiero Ale</p>
+    </div>
+
+    <div>
+        <h5 id="hor1">Hora</h5>
+        <p id="hor2"></p>
+
+
+    </div>
+</body>
+</html>
