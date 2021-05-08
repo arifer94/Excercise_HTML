@@ -1,0 +1,57 @@
+body{
+    background-color: #A9D0F5 /*Puede escoger el color de su elección*/
+    }
+
+h1 {
+    color: #0000FF; /* Cambiamos el color del texto a #0000FF */
+    text-transform: capitalize;
+    /* Cada primera letra de cada palabra es cambiada a mayúscula*/
+    font-size: 20px; /* Cambiamos el tamaño del texto a 15 pixeles */
+    }
+
+hr {
+    color: #f00; /* Color de borde rojo*/
+    width: 90%; /* Ancho de línea de 60% */
+    background-color: #f00; /* Color de línea Rojo */
+    height: 3px; /* Alto de línea de 5 pixeles */
+    }
+
+table, td{
+    background-color: #9b6baa;
+    border: 2px solid rgb(92, 0, 128);
+    padding: 5px;
+    }
+
+th{
+    border: 2px solid rgb(5, 5, 5);
+    background-color: #58d4fa;
+    }
+
+
+mark {
+    background-color: rgb(248, 115, 237);
+    color: black;
+    }
+
+div{
+    -webkit-border-radius: 10px; /* Border redondeao de 10 pixeles (Chrome)*/
+    background-color: #58ACFA; /* Color de Fondo #58ACFA; */
+    border-radius: 20px; /* Borderredondeao de 10 pixeles */
+    border: 2px solid #0000FF; /* Border sólido de 2 pixeles de color #0000FF;*/
+    margin: 10px; /* Margen de 10 pixeles */
+    padding: 20px; /* Padding de 20 pixeles */
+    text-align : justify; /* Alineación de texto Justificado */
+    width: 60%; /* Ancho de Caja de 20% */
+}
+
+#publicidad{
+    -webkit-border-radius: 10px;
+    background-image: url("/home/ari/Development/Python/desarrollo/HTML/Practica_2/pilas.jpg");
+    /* Imagen de Fondo: pilas.jpg */
+    border-radius: 10px;
+    border: 2px solid #0000FF;
+    margin: 10px;
+    padding: 20px;
+    text-align : justify;
+    width: 40%;
+}

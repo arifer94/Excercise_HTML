@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Práctica_2</title>
+</head>
+<body>
+    <!-- Práctica 2 -->
+    <h1>Párrafos en HTML</h1>.
+    <p><b>HTML</b> considera que los párrafos son bloques de texto. Los
+        navegadores hacen lo posible para adaptar el contenido de los párrafos a la
+        ventana. Dentro de un párrafo, todos los espacios, tabuladores y saltos de
+        línea cuentan como un espacio simple.</p>
+    
+    <p>Para colocar textos en bloques, se utiliza un par de etiquetas
+        &#60 pre &#62 &#60 p &#62 &#60 pre &#62 y &#60 pre &#62 &#60 p &#62 &#60 pre &#62. 
+        Esta etiqueta puede incluir cualquiera de los atributos mencionados anteriormente.</p>
+
+    <p>Los saltos de línea (saltar de una línea a la siguiente) se crean usando la
+        etiqueta &#60 pre &#62 &#60 br &#62 &#60 pre &#62</p>
+    
+    <hr>
+
+    <p><b>HTML</b> nos permite definir el formato de visualización del texto en
+        la pantalla. Para ello nos proporciona una serie de etiquetas que nos permiten
+        resaltar o enfatizar un texto en especial. Dentro de la gama de etiquetas que
+        están disponibles para la versión 5 de HTML se encuentran las siguientes:</p>
+
+    <table>
+        <tr><th>Etiquetas</th><th>Código</th><th>Resultado</th></tr>
+        <tr><td><b>&lt;b&gt;...&lt;/b&gt;</b></td><td >&lt;b&gt;Texto en negrita&lt;/b&gt;</td><td >Texto normal <b>Texto en negrita</b></td></tr>
+        <tr><td ><b>&lt;big&gt;...&lt;/big&gt;</b></td><td>&lt;big&gt;Texto en grande&lt;/big&gt;</td><td>Texto normal <big>Texto en grande</big></td></tr>
+
+        <tr><td><b>&lt;em&gt;...&lt;/em&gt;</b></td><td >&lt;em&gt;Texto enfatizado&lt;/em&gt;</td><td >Texto normal <em>Texto enfatizado</em></td></tr>
+        <tr><td ><b>&lt;i&gt;...&lt;/i&gt;</b></td><td>&lt;i&gt;Texto en itálica&lt;/i&gt;</td><td>Texto normal <i>Texto en itálica</i></td></tr>
+
+        <tr><td><b>&lt;small&gt;...&lt;/small&gt;</b></td><td >&lt;small&gt;Texto en pequeño&lt;/small&gt;</td><td >Texto normal <small>Texto pequeño</small></td></tr>
+        <tr><td ><b>&lt;strong&gt;...&lt;/strong&gt;</b></td><td>&lt;strong&gt;Texto fuerte&lt;/strong&gt;</td><td>Texto normal <strong>Texto fuerte</strong></td></tr>
+        
+        <tr><td><b>&lt;sub&gt;...&lt;/sub&gt;</b></td><td >&lt;sub&gt;Texto subíndice&lt;/sub&gt;</td><td >Texto normal <sub>Texto en subíndice</sub></td></tr>
+        <tr><td ><b>&lt;sup&gt;...&lt;/sup&gt;</b></td><td>&lt;sup&gt;Texto superíndice&lt;/sup&gt;</td><td>Texto normal <sup>Texto en superíndice</sup></td></tr>
+        
+        <tr><td><b>&lt;ins&gt;...&lt;/ins&gt;</b></td><td >&lt;ins&gt;Texto en subrayado&lt;/ins&gt;</td><td >Texto normal <ins>Texto subrayado</ins></td></tr>
+        <tr><td ><b>&lt;del&gt;...&lt;/del&gt;</b></td><td>&lt;del&gt;Texto en tachado&lt;/del&gt;</td><td>Texto normal <del>Texto en tachado</del></td></tr>
+        
+        <tr><td><b>&lt;tt&gt;...&lt;/tt&gt;</b></td><td >&lt;tt&gt;Texto teletipo&lt;/tt&gt;</td><td >Texto normal <tt>Texto teletipo</tt></td></tr>
+        <tr><td ><b>&lt;mark&gt;...&lt;/mark&gt;</b></td><td>&lt;mark&gt;Texto resaltado&lt;/mark&gt;</td><td>Texto normal <mark>Texto resaltado</mark></td></tr>
+    </table>
+
+    <hr>
+
+    <h1>Ejemplos de formato básico del texto con HTML.</h1>
+
+    <ol>
+        <li><b>Texto negrita</b>, <i>Texto en itálica</i> o <i>cursiva</i>, <ins>Texto
+            subrayado</ins> y <em>Texto enfatizado</em></b>
+            <div>
+                Existen varios métodos tipográficos para subrayar, destacar o mostrar que
+                algo es <em>distinto</em> de alguna manera de las palabras que tiene a su alrededor. El
+                <ins>subrayado</ins> propiamente dicho (método propio de las máquinas de escribir) casi
+                no se emplea en la actualidad, gracias a la existencia de la <i>cursiva</i> y la <b>negrita</b>.
+                Las comillas, ya sean americanas (“ ”) o angulares, de codo o españolas (« »)
+                también cumplen una función tipográficamente diferenciadora: aíslan la
+                palabra y en algunas ocasiones hasta le dan su propio tono de voz, por así
+                decirlo. También se puede optar por las VERSALES o las <span style="font-size: x-small;">VERSALITAS</span>, y solo en
+                casos justificados, la mayúscula inicial. 
+            </div>
+        </li>
+
+        <li>
+            <big>Texto grande</big>, <small>Texto pequeño</small>, <strong>Texto
+                fuerte</strong>
+            <div id="publicidad">
+                <span style="text-transform: uppercase;"><bi><strong>¡Ponte las pilas¡</strong></bi> </span>y recicla las pilas y baterías que vayas a tirar <small>y el papel, el
+                    cartón, los cartuchos de tinta y tóners también.</small>
+            </div>
+        </li>
+
+        <li>
+            <sub>Texto subíndice</sub>, <sup>Texto superíndice</sup>,
+                <mark>Texto resaltado</mark>
+            <div>
+                El formato de texto de <b>HTML</b> nos permite introducir algunas fracciones
+                sencillas como, por ejemplo: <sup>3</sup>&frasl;<sub>4</sub>. O algunas ecuaciones más complejas
+                como: <br>
+                <mark> C + O2 &#8594; CO2</mark>
+            </div>
+        </li>
+    <ol>
+</body>
+</html>
