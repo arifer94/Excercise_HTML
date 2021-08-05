@@ -1,2 +1,2 @@
 # Excercise_HTML
-Aplicación de conocimientos básicos de HTML (Tipos de letra).
+Aplicación de conocimientos básicos de HTML (CSS y tipos de letra).
