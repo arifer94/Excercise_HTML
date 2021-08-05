@@ -1,0 +1,110 @@
+/* {}*/
+body{
+    background-color:#c974eb;
+}
+
+h1{
+    text-align: center;
+    font-family:"Comic Sans MS","Comic Sans",cursive;
+}
+
+a{
+    margin: 0 auto;
+    display: block;
+}
+
+hr{
+    height: 0px;
+    width: 70%;
+    border: 2px solid #000000;
+}
+ 
+p{
+    margin: 10px;
+}
+
+
+hr#division{
+    background-color: #0f0f0e; /* Color de borde rojo*/
+    width: 82%; /* Ancho de línea de 60% */
+    border: 0px;
+    height: 3px; /* Alto de línea de 5 pixeles */
+    float: right;
+    }
+
+img#Solar{
+    margin: 0px auto 20px auto; /* (Top, Right, Bottom, Left) */
+    display: block;
+    border-radius: 8px 8px 8px 8px;
+}
+
+img#inicio,img#Solar1
+{
+    width: 95%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+div#contenido
+{
+width: 90%;
+margin: auto;
+}
+
+
+div#contenido
+{
+width: 90%;
+margin: auto;
+}
+
+div#columna-izq
+{
+background-color: #EBE9EA;
+border: 5px solid #610B0B;
+border-radius: 8px 8px 8px 8px;
+float: left;
+position: fixed;
+margin-top: 0px;
+margin-left: 0px;
+overflow: hidden;
+text-align: center;
+width: 10%;
+padding: 5px;
+}
+div#central
+{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 8px 8px 8px 8px;
+background-color: #DBA901;
+border: 5px solid #610B0B;
+float: right;
+height: 100%;
+margin-left: 20px;
+margin-bottom: 10px;
+width: 80%;
+padding: 10px;
+}
+div#interno
+{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+border: 5px solid #610B0B;
+background-color: #00BFFF;width: 60%;
+margin: 0 auto;
+padding: 10px;
+text-align: justify;
+font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+img#planetas
+{
+margin: 0px auto 20px auto; /* (Top, Right, Bottom, Left) */
+border-radius: 8px 8px 8px 8px;
+width: 200px;
+height: 200px;
+display: block;
+}
